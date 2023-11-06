@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #001524;
+    background-color: #ffecd1;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    display: flex;
+    background-color: #15616d;
+    color: #ff7d00;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.header-text {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+}
+
+.title {
+    background-color: #15616d;
+}
+
+.round {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-text {
+    padding: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.player,
+.computer {
+    display: flex;
+    flex-direction: column;
+}
+
+.player-choice,
+.computer-choice {
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.player-score,
+.computer-score {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 20px
+}
+
+.sign {
+    font-size: 80px;
+
+
+}
+
+button{
+    background-color: #fbb969;
+    border-radius: 13px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ec7741;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}

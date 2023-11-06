@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet" />
 </head>
+
 <body>
-    
+    <main class="main">
+        <div class="header-container">
+            <div class="header-text">
+                <h1 class="title">ROCK PAPER SCISSORS</h1>
+            </div>
+        </div>
+
+        <div class="round">
+            <div class="round-text" id="round-info">
+                <h3 id="round-text-info">Choose your fighter!</h3>
+                <h4 id="round-text-info-two">First to score 5 points wins!</h4>
+            </div>
+
+        </div>
+
+        <div class="players">
+            <div class="player">
+                <div class="player-choice">
+                    <div class="sign" id="playerSign">❔</div>
+
+                </div>
+                <div class="player-score">
+                    <p id="playerScore">Player: 0</p>
+                </div>
+            </div>
+            <div class="computer">
+                <div class="computer-choice">
+                    <div class="sign" id="computerSign">❔</div>
+                </div>
+                <div class="computer-score">
+                    <p id="computerScore">Computer: 0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="choices">
+            <button id="rock">
+                <p class="sign">🪨</p>
+            </button>
+            <button id="paper">
+                <p class="sign">🧻</p>
+            </button>
+            <button id="scissors">
+                <p class="sign">✂️</p>
+            </button>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <p>
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+          MirunaHaidu
+        </p>
+        <a href="https://github.com/MirunaHaidu" target="_blank">
+          <i class="fab fa-github"></i
+        ></a>
+      </footer>
 </body>
+
 </html>
